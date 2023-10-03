@@ -30,23 +30,61 @@ This project focuses on image processing and computer programming, implementing 
 ## Setup and Usage
 
 **Prerequisites**:
-Sure, here's a concise version in bullet points:
+Certainly! For your project, you will primarily require the `OpenCV` library. Here's a breakdown of what to install and the steps to do so:
 
-- **Install Python**:
-  - Windows: Download from [python.org](https://www.python.org/downloads/windows/). <br>
-  - macOS: `brew install python` or use pre-installed version. <br>
-  - Linux: `sudo apt-get install python3`
-  
-- **Set Up Virtual Environment**:
-  - `pip install virtualenv` <br>
-  - `python -m venv env` <br>
-  - Activate: Windows (`.\env\Scripts\activate`) | macOS/Linux (`source env/bin/activate`)
-  
-- **Install OpenCV**:
-  - `pip install opencv-python` <br>
-  - For extra features: `pip install opencv-python-contrib`
+### Installations:
 
-- **Update Libraries**: `pip install --upgrade library-name`
+1. **Python**:
+   - You'll need Python installed on your system. If you don't have it installed, you can download it from [Python's official website](https://www.python.org/downloads/). <br>
+
+2. **OpenCV**:
+   - A powerful library primarily aimed at real-time computer vision. <br>
+
+3. **csv (module in Python's standard library)**:
+   - For reading and writing CSV files.
+
+### Steps to Install:
+
+1. **Install Python**:
+   - Download the appropriate version for your system from [Python's official website](https://www.python.org/downloads/). <br>
+   - Install it by following the on-screen instructions. Make sure to add Python to PATH during installation.
+
+2. **Setup a Virtual Environment (Optional but Recommended)**:
+   - It's a good practice to use a virtual environment for your projects to avoid version conflicts between packages. <br>
+   ```bash
+   python -m venv project_env
+   ```
+   - Activate the virtual environment:
+     - On Windows:
+     ```bash
+     .\project_env\Scripts\activate
+     ```
+     - On macOS and Linux:
+     ```bash
+     source project_env/bin/activate
+     ```
+
+3. **Install OpenCV**:
+   - Once you have Python and (optionally) a virtual environment setup, you can install OpenCV using `pip`:
+   ```bash
+   pip install opencv-python
+   ```
+
+### Project Setup:
+
+1. **Setup the File Structure**:
+   - Create the directories and files as mentioned in the previously provided file structure. <br>
+
+2. **Initialize CSV**:
+   - Run the `initialize_csv.py` script once to set up your `parcels.csv` file with the appropriate headers. <br>
+
+3. **Place Images**:
+   - If you have any images you want to process using the face detection script, place them in the `images/` directory. <br>
+
+4. **Run the Scripts**:
+   - You can now run the individual scripts (`face_detection.py`, `shape_drawing.py`, `warehouse.py`) as needed for your project.
+
+Remember to always activate your virtual environment (if you've set one up) before running the scripts or installing additional packages. This ensures that all dependencies remain within the scope of the current project.
   
 **Running the Scripts**:
 1. Navigate to the project directory.
