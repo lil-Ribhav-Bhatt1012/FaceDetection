@@ -72,16 +72,13 @@ Certainly! For your project, you will primarily require the `OpenCV` library. He
 
 ### Project Setup:
 
-1. **Setup the File Structure**:
-   - Create the directories and files as mentioned in the previously provided file structure. <br>
-
-2. **Initialize CSV**:
+1. **Initialize CSV**:
    - Run the `initialize_csv.py` script once to set up your `parcels.csv` file with the appropriate headers. <br>
 
-3. **Place Images**:
+2. **Place Images**:
    - If you have any images you want to process using the face detection script, place them in the `images/` directory. <br>
 
-4. **Run the Scripts**:
+3. **Run the Scripts**:
    - You can now run the individual scripts (`face_detection.py`, `shape_drawing.py`, `warehouse.py`) as needed for your project.
 
 Remember to always activate your virtual environment (if you've set one up) before running the scripts or installing additional packages. This ensures that all dependencies remain within the scope of the current project.
